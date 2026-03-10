@@ -48,3 +48,4 @@ Use JWT tokens and proper middleware for security.
 - Optimize database queries
 
 Building scalable APIs is an essential skill for backend developers.
+This is the additional line for testing.
