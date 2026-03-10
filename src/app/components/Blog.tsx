@@ -129,12 +129,14 @@ export default function Blog() {
           </h2>
           <div className="w-20 h-1 bg-[var(--primary)] mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-[var(--muted-dark)] max-w-2xl mx-auto">
-            I write about web development, programming tips, and my journey as a developer. 
-            Here are some of my latest articles.
+            Here I write about the thoughts that wander through my mind while walking alone on an empty road, gazing at 
+            the stars on a quiet night, smoking a cigarette, or lying awake at midnight waiting for sleep to take over.
+             Sometimes they come while watching a still river, or while sitting by the window seat of a bus or a train,
+              letting the world quietly pass by — the kind of thoughts that often make me reach for the ghazals in my phone.
           </p>
         </div>
 
-        <div className="flex flex-wrap justify-center gap-3 mb-10">
+        {/* <div className="flex flex-wrap justify-center gap-3 mb-10">
           {categories.map((category) => (
             <button
               key={category}
@@ -148,7 +150,7 @@ export default function Blog() {
               {category}
             </button>
           ))}
-        </div>
+        </div> */}
 
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {filteredPosts.map((post) => (
