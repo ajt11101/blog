@@ -7,7 +7,7 @@ import Blog from "./components/Blog";
 import Navigation from "./components/Navigation";
 
 export default function Home() {
-  const [activeSection, setActiveSection] = useState("blog");
+  const [activeSection, setActiveSection] = useState("about");
 
   return (
     <main className="min-h-screen bg-[var(--background)]">
@@ -23,8 +23,8 @@ export default function Home() {
           </>
         )}
         */}
-        {activeSection === "blog" && <Blog />}
         {activeSection === "about" && <About />}
+        {activeSection === "blog" && <Blog />}
       </div>
     </main>
   );

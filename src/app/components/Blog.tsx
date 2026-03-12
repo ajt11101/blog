@@ -71,20 +71,20 @@ export default function Blog() {
             ← Back
           </button>
           <article className="bg-[var(--card)] rounded-xl shadow-lg border border-[var(--border)] overflow-hidden">
-            <div className="h-48 bg-gradient-to-br from-[var(--primary)] to-green-700 flex items-center justify-center">
+            {/* <div className="h-48 bg-gradient-to-br from-[var(--primary)] to-green-700 flex items-center justify-center">
               <span className="text-white text-6xl font-bold opacity-20">
                 {selectedPost.category[0]}
               </span>
-            </div>
+            </div> */}
             <div className="p-8">
               <div className="flex items-center gap-4 text-sm text-[var(--muted-dark)] mb-4">
                 <span>{formatDate(selectedPost.date)}</span>
-                <span>•</span>
-                <span>{selectedPost.readTime}</span>
+                {/* <span>•</span> */}
+                {/* <span>{selectedPost.readTime}</span> */}
               </div>
-              <span className="inline-block px-3 py-1 bg-[var(--secondary)]/30 text-[var(--primary)] text-xs font-semibold rounded-full mb-4">
+              {/* <span className="inline-block px-3 py-1 bg-[var(--secondary)]/30 text-[var(--primary)] text-xs font-semibold rounded-full mb-4">
                 {selectedPost.category}
-              </span>
+              </span> */}
               <h1 className="text-3xl sm:text-4xl font-bold text-[var(--foreground)] mb-6">
                 {selectedPost.title}
               </h1>
@@ -130,9 +130,10 @@ export default function Blog() {
           <div className="w-20 h-1 bg-[var(--primary)] mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-[var(--muted-dark)] max-w-2xl mx-auto">
             Here I write about the thoughts that wander through my mind while walking alone on an empty road, gazing at 
-            the stars on a quiet night, smoking a cigarette, or lying awake at midnight waiting for sleep to take over.
+            the stars on a quiet night, or lying awake at midnight waiting for sleep to take over.
              Sometimes they come while watching a still river, or while sitting by the window seat of a bus or a train,
-              letting the world quietly pass by — the kind of thoughts that often make me reach for the ghazals in my phone.
+              letting the world quietly pass by.
+               {/* smoking a cigarette, */}
           </p>
         </div>
 
@@ -158,20 +159,20 @@ export default function Blog() {
               key={post.id}
               className="group bg-[var(--card)] rounded-xl shadow-sm hover:shadow-xl transition-all duration-300 border border-[var(--border)] overflow-hidden cursor-pointer"
             >
-              <div className="h-48 bg-gradient-to-br from-[var(--primary)] to-green-700 flex items-center justify-center">
+              {/* <div className="h-48 bg-gradient-to-br from-[var(--primary)] to-green-700 flex items-center justify-center">
                 <span className="text-white text-6xl font-bold opacity-20">
                   {post.category[0]}
                 </span>
-              </div>
+              </div> */}
               <div className="p-6">
                 <div className="flex items-center gap-4 text-sm text-[var(--muted-dark)] mb-3">
                   <span>{formatDate(post.date)}</span>
-                  <span>•</span>
-                  <span>{post.readTime}</span>
+                  {/* <span>•</span> */}
+                  {/* <span>{post.readTime}</span> */}
                 </div>
-                <span className="inline-block px-3 py-1 bg-[var(--secondary)]/30 text-[var(--primary)] text-xs font-semibold rounded-full mb-3">
+                {/* <span className="inline-block px-3 py-1 bg-[var(--secondary)]/30 text-[var(--primary)] text-xs font-semibold rounded-full mb-3">
                   {post.category}
-                </span>
+                </span> */}
                 <h3 className="text-xl font-bold text-[var(--foreground)] mb-3 group-hover:text-[var(--primary)] transition-colors">
                   {post.title}
                 </h3>
@@ -189,11 +190,11 @@ export default function Blog() {
           ))}
         </div>
 
-        <div className="text-center mt-12">
+        {/* <div className="text-center mt-12">
           <button className="px-8 py-3 border-2 border-[var(--primary)] text-[var(--primary)] hover:bg-[var(--primary)] hover:text-black font-semibold rounded-lg transition-all duration-200 cursor-pointer">
             View All Articles
           </button>
-        </div>
+        </div> */}
       </div>
     </section>
   );

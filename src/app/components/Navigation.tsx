@@ -7,8 +7,8 @@ interface NavigationProps {
 
 export default function Navigation({ activeSection, setActiveSection }: NavigationProps) {
   const navItems = [
-    { id: "blog", label: "Blog" },
     { id: "about", label: "About Me" },
+    { id: "blog", label: "Blog" },
   ];
 
   return (
