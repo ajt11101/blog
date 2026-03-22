@@ -8,13 +8,13 @@ slug: "a-sea-of-memories"
 ---
 
 
-Today, I went back to my college—just for a visit. As I walked around, a vast sea of memories flooded my mind. I found myself missing everything that had once been part of my life there: my friends, the academics, the everyday moments—everything.
+Today, I went back to my college just for a visit. As I walked around, a vast sea of memories flooded my mind. I found myself missing everything that had once been part of my life there: my friends, the academics, the everyday moments, everything.
 
-For a moment, I wished I could relive those days. But the reality is that I can’t. I will never be an undergraduate again, and the people who were part of that journey won’t be there the way they once were. What remains now are only memories—a vast sea of them.
+For a moment, I wished I could relive those days. But the reality is that I can’t. I will never be an undergraduate again, and the people who were part of that journey won’t be there the way they once were. What remains now are only memories - a vast sea of them.
 
 I wish there were some way to live even one more day like that. If such a deal existed, I would have accepted it without hesitation. But the real world doesn’t offer such deals.
 
-Right now, I’m sitting in a nearby park where I used to spend time during my college days, thinking about all of this. And a thought crossed my mind.
+Right now, I’m sitting in a nearby park and smoking a cigarette, where I used to spend time during my college days, thinking about all of this. And a thought crossed my mind.
 
 
 I spent a large part of my college life chasing things that I could never truly have. Deep down, I already knew that, yet I still allowed myself to spend my time there. Because of that, I feel like I only truly lived my college life during the last one year out of four.
@@ -28,4 +28,4 @@ No matter what we do, we only get to look back at those moments later. We cannot
 
 All we can do is feel nostalgic about them and miss them.
 
-And perhaps that’s why it’s better to look back at a life that feels complete rather than one that feels unfinished. Because in the end, memories are all we truly carry with us—nothing more.
+And perhaps that’s why it’s better to look back at a life that feels complete rather than one that feels unfinished. Because in the end, memories are all we truly carry with us, nothing more.
