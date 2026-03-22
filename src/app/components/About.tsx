@@ -27,7 +27,7 @@ export default function About() {
            <p className="text-lg text-[var(--muted-dark)] max-w-2xl mx-auto">
             Well I don't know the actual answer to this question, but I am trying my best to figure it out.
             Whenever I try to pen it down, it comes something like - I'm Ajeet, a software engineer by profession. 
-            When I'm not writing code, you'll often find me writing my thoughts, reading a non-fiction book, trying to capture something 
+            When I'm not writing code, you'll often find me writing my thoughts, reading a fiction book, trying to capture something 
             or reflecting deeply on life—its existence, its nature, and why things are the way they are, thinking about metaphysical ideas.
           </p>
           <p className="text-lg text-[var(--muted-dark)] max-w-2xl mx-auto">
